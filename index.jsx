@@ -1,5 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-ReactDOM.render(<h1>Quiz</h1>,
-    document.getElementById("app"));
+function Application() {
+    return <h1>Hello World</h1>
+}
+
+ReactDOM.render(
+    <Application/>,
+    document.getElementById("app")
+);
