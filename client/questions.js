@@ -7,4 +7,4 @@ export function isCorrectAnswer(question, answer) {
 }
 
 export const Question =
-    [{}]
+    [{hei}]
