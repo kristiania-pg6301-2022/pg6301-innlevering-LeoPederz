@@ -6,7 +6,7 @@ export function isCorrectAnswer(question, answer) {
     return question.correct_answers[answer + "_correct"] === "true";
 }
 
-export const Question =
+export const Questions =
     [{ "id": 974,
         "question": "What is the correct JavaScript syntax to change the content of the HTML element below?",
         "description": null,
