@@ -49,7 +49,7 @@ function QuestionComponent({ reload }) {
     return <ShowQuestion question={question} onReload={handleReload} />;
 }
 
-export function QuizApp() {
+export function QuizApplication() {
     const {
         data: score,
         loading,
