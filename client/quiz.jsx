@@ -58,7 +58,7 @@ export function QuizApp() {
 
     return (
         <>
-            <h1>Welcome to the quiz show</h1>
+            <h1>Welcome to the quiz application</h1>
             {loading && <div>Loading...</div>}
             {score && (
                 <div>
